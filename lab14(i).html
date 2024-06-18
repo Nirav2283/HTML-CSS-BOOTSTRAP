@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 14</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 100vh;
+            width: 100vw;
+        }
+        .header{
+            border: 1px solid black;   
+            height: 10%;
+            background-color: rgb(58, 57, 57);
+        }
+        .center{
+           
+            margin-left:30%;
+            margin-right: 20%;
+            height: 70%;
+            margin-top: 20px;
+        }
+        label{
+            margin-right: 50px;
+            font-size:20px;
+            color: white;
+           
+
+        }
+        .content{
+            
+            height: 140%;
+            background-color: rgb(232, 234, 223);
+        }
+        .footer{
+            border: 1px solid black;
+            height: 20%;
+        }
+        .one{
+            height: 10%;
+            margin-left:40%;
+            margin-right: 20%;
+            padding-top:20px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+            
+        }
+        .two{
+            
+            height: 85%;
+        }
+        .book{
+            float: left;
+            width:40%;
+            margin-left: 90px;
+            
+            height: 100%;
+        }
+        .order{
+            float: right;
+           
+            width: 50%;
+            height: 100%;
+        }
+        .b1{
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 40px 40px 40px 40px;
+            height: 90%;
+            
+        }
+        .p1{
+           border-radius: 20px;
+            height:20%;
+            background-color: rgb(237, 229, 229);
+        }
+        .p2{
+           
+            height:30%;
+            background-color: white;
+        }
+        .p3{
+           
+            height:50%;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius:20px ;
+            background-color: rgb(245, 202, 49);
+        }
+        .i1{
+            float: left;
+            width: 30%;
+            height: 100%;
+           
+        }
+        .i1 h3{
+            width: 52%;
+           
+            padding:0 0 5px 5px;
+            margin-left: 45px;
+            font-family: sans-serif;
+            color: white;
+            background-color:black ;
+        }
+        .i2{
+            float: right;
+            width: 65%;
+            height: 100%;
+            
+        }
+        .i2 p{
+            text-align: right;
+            margin-right: 20px;
+            padding-top:10px;
+        
+        }
+        .i2 h5{
+            text-align: right;
+            margin-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .i2 h2{
+            text-align: right;
+            margin-top:-20px;
+            margin-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .p2 h1{
+            font-size: 80px;
+            padding-top:30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            padding-right: 30px;
+            text-align: right;
+        }
+        .p3 h1{
+            font-size:300px;
+            text-align: right;
+            padding-top:30px;
+            padding-right: 20px;
+            font-family: sans-serif;
+        }
+        .p3 p{
+            position: relative;
+            font-size: 23px;
+            font-family: sans-serif;
+            color:  rgb(245, 202, 49);
+            rotate: 270deg;
+            transform: translate(-8% , 0%);
+            font-weight: bolder;
+           
+        }
+        .order h3{
+            font-family: sans-serif;
+            text-align: center;
+           
+        }
+        .order button{
+            margin-top:60px;
+            background-color: rgb(238, 142, 32);
+            border: none;
+            color: white;
+            margin-left: 250px;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding:8px 40px 8px 40px;
+        }
+        .footer{
+            background-color: rgb(26, 26, 30);
+        }
+        .footer h3{
+            color: white;
+            font-family: sans-serif;
+            margin-top: 40px;
+            margin-left:500px ;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="center">
+                <label>The Book series</label>
+                <label>Testimonials</label>
+                <label>The Author</label>
+                <label>Free Resources</label>
+            </div>
+        </div>
+        <div class="content">
+            <div class="one">
+                <h3>You dont know Javascript</h3>
+            </div>
+            <div class="two">
+                <div class="book">
+                    <div class="b1">
+                        <div class="p1">
+                            <div class="i1"><h3>O'REILLY</h3></div>
+                            <div class="i2">
+                                <p>"When you strive to comprehend your code,you create better work and become better at what you do.The code isn't just your job anymore.it's your craft.This is why i love-Up&going. "</p>
+                                <h5>-JENN LUKAS Frontend Consultant</h5><br>
+                                <br>
+                                <h2>KYLE SIMPON</h2>
+
+                            </div>
+                        </div>
+                        <div class="p2">
+                            <h1>COMPLETE SERIES</h1>
+                        </div>
+                        <div class="p3">
+                            <p>YOU DONT KNOW</p>
+                            <h1>JS</h1>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="order">
+                    <h3 style=" margin-top:90px;">Dont just drift through javascript.</h3>
+                    <h3 style="margin-top:60px;">Understand how javascript works</h3>
+                    <h3 style="margin-top: 60px;">Start your journey through the bumpy side of javascript</h3>
+                    <button><b>ORDER YOUR COPY NOW</b></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>The first ebook in the book series is absolutely free</h3>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <style>
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  *{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    
+    
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('D:\\Git Upload\\HTML-CSS-BOOTSTRAP\\GTA6.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+      }
+      .form-box{
+        position: relative;
+        width: 400px;
+        height: 450px;
+        background-color:transparent;
+        border: 2px solid rgba(255 , 255 , 255 , 0.5); 
+        backdrop-filter: blur(15px);
+        border-radius: 40px ;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+
+      }
+      h2{
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+       
+
+      }
+      .inputbox{
+        margin: 25px 0;
+        width: 310px;
+        position: relative;
+        border-bottom: 2px solid #fff;
+      }
+      .inputbox label{
+        position: absolute;
+        top: 80%;
+        left: 5px;
+        transform: translateY(-50%);
+        color: #fff;
+        pointer-events: none;
+        font-size: 1em;
+        transition: .4s;
+      }
+      input:focus ~ label,
+      input:valid ~ label{
+        top:35px;
+
+      }
+
+      .inputbox input {
+        width:100%;
+        height: 50px;
+        background: transparent;
+        border:none;
+        outline: none;
+        font-size: 1em;
+        padding: 35px 0 5px;
+      }
+      .inputbox ion-icon{
+        position: absolute;
+        right: 8px;
+        color:#fff;
+        font-size: 1.2em;
+        top:60px;
+      }
+      .forget{
+        margin: -15px 0 15px;
+        font-size: 0.9em;
+        display: flex;
+        justify-content: center;
+      }
+      .forget label input{
+        margin-right: 3px;
+
+      }
+      .forget label a{
+        color: #fff;
+        text-decoration: none;
+      }
+      .forget label a:hover{
+        text-decoration: underline;
+        color:#fff;
+      }
+      .abc{
+        color:#fff;
+      }
+      button{
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        box-shadow: #00ff00;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size:1em;
+        font-weight: 600;
+      }
+      .register{
+        font-size: .9em;
+        color:#fff;
+        text-align: center;
+        margin: 25px 0 10px;
+      }
+      .register p a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+
+
+      }
+      .register p a:hover{
+        text-decoration: underline;
+      }
+</style>
+    
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label>Password</label>
+                        
+                    </div>
+                    <div class="forget">
+                        <label for="" class="abc"><input type="checkbox">Remember Me</label>
+                        <a href="#" class="abc">Forget Password</a>
+                        
+                    </div>
+                    <button>Login</button>
+                    <div class="register">
+                        <p>Don't have an a account<a href="#" >        Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

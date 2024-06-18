@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:visited{
+            color: brown;
+
+        }
+        a:active{
+            color: chartreuse;
+        }
+        a{
+            color: blue;
+        }
+        .paragraph::first-line{
+            color: blue;
+        }
+        .b1::first-letter{
+            font-size: 70px;
+            color: blue;
+
+        }
+        button{
+            font-size: 30px;
+            background-color: aqua;
+        }
+        button:hover{
+            background-color: orange;
+        }
+        .b3 p::selection{
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+        <div class = "container">
+            <a href="#">Dabavo</a>
+
+        </div>
+        <div class="paragraph">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos sed quo enim delectus perferendis sunt nobis quis perspiciatis accusamus. Expedita natus doloribus quas adipisci commodi unde a laborum illo.</p>
+        </div>
+        <div class = "b1">
+            <p>This is a paragraph</p>
+        </div>
+        <div class="b2">
+            <button>Submit</button>
+        </div>
+        <div class="b3">
+            <p>This is a paragraph</p>
+        </div>
+</body>
+</html>

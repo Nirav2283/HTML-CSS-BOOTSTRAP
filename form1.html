@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>
+            Employee registration
+        </title>
+        <style>
+            .abc{
+               
+                margin-left: 500px;
+                margin-right: 500px;
+            }
+            p{
+                animation-name: slidein;
+                animation-duration: 3s;
+            }
+            @keyframes slidein {
+                from{
+                    margin-left: 100%;
+                    width: 300%;
+                }
+                to{
+                    margin-left: 0%;
+                    width:100%;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+        <p>
+            hello world
+        </p>
+        <h1 align="center">Employee Registration</h1>
+        <fieldset class="abc">
+            <legend  align="left">
+                personal information
+
+            </legend>
+            <form>
+                <table align="center" cellpadding="5px">
+                    <tr>
+                        <td>Employee Id: </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Employee Name: </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Email id </td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Contact number: </td>
+                        <td><input type="text" pattern="[0-9]{10}"></td>
+                    </tr>
+                    <tr>
+                        <td>Martial Status: </td>
+                        <td><input type="radio" name="married">Married
+                        <input type="radio" name="married" >Single</td>
+                    </tr>
+                    <br>
+                  
+
+                </table>
+            </form>
+
+            
+        </fieldset>
+        <br>
+
+        <fieldset class="abc">
+            <legend align="left">Education/Experience</legend>
+        
+        <form><table align="center">
+            <tr>
+                <td>Eductaion:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Experience: </td>
+                <td><textarea></textarea></td>
+                </tr>
+
+            
+        </table></form>
+
+        </fieldset>
+
+        <fieldset class="abc">
+            <legend align="left">Job Details</legend>
+            <form>
+                <table align="center">
+                    <tr>
+                        <td>Designation:</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Job location</td>
+                    
+                        <td>
+                        <select>
+                            <option selected>Rajkot</option>
+                            <option>bhavnagar</option>
+                            <option>Morbi</option>
+                            <option>Jamnagar</option>
+                        </select>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Salary</td>
+                        
+                        <td><input type="text"></td>
+                    </tr>
+
+                </table>
+            </form>
+            </fieldset>
+            <table align="center">
+				<tr>
+					<td><input type="Submit" value="Submit" name="Submit"></td>
+					<td>&nbsp;</td>
+					<td><button>Cancle</button></td>
+				</tr>
+			</table>
+        
+    </body>
+</html>
